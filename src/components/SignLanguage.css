@@ -1,0 +1,31 @@
+.sign-page { min-height: calc(100vh - 72px); padding: 60px 20px 90px; background: linear-gradient(160deg,#fbf1e6,#f3e6da); }
+.sign-header { max-width: 700px; margin: 0 auto 40px; text-align: center; animation: fadeUp 0.6s ease; }
+.sign-header h1 { font-size: 40px; margin: 12px 0; color: #4a3229; }
+.sign-search-box { position: relative; display: inline-block; margin-top: 20px; }
+.sign-search { width: 260px; padding: 14px 40px 14px 18px; border-radius: 30px; border: 2px solid #e6d3c2; font-size: 16px; text-transform: uppercase; text-align: center; outline: none; transition: 0.25s; }
+.sign-search:focus { border-color: #c97b63; box-shadow: 0 0 0 4px rgba(124,92,255,0.12); }
+.clear-search { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); border: none; background: #efe0d0; color: #a85c47; width: 26px; height: 26px; border-radius: 50%; cursor: pointer; font-size: 15px; }
+
+.sign-container { max-width: 1100px; margin: auto; display: grid; grid-template-columns: repeat(auto-fill,minmax(150px,1fr)); gap: 22px; }
+.sign-card {
+  background: white; border-radius: 18px; padding: 22px 15px; text-align: center; cursor: pointer;
+  box-shadow: 0 8px 22px rgba(90,70,200,0.08); transition: all 0.3s cubic-bezier(.2,.8,.2,1);
+  animation: fadeUp 0.5s ease backwards; overflow: visible;
+}
+.sign-card:hover, .sign-card:active { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(169,92,71,0.25); z-index: 2; }
+.sign-card img { width: 90px; height: 90px; object-fit: contain; display: block; margin: auto; padding: 10px; background: #faf3ea; border-radius: 12px; transition: transform 0.3s; }
+.sign-card:hover img, .sign-card:active img { transform: scale(1.08); }
+.sign-card h2 { margin: 12px 0 4px; font-size: 22px; color: #4a3229; position: relative; z-index: 3; opacity: 1 !important; visibility: visible; }
+.sign-card p { color: #a68a76; font-size: 12px; }
+.no-result { text-align: center; margin-top: 40px; color: #999; font-size: 17px; }
+
+.sign-overlay { position: fixed; inset: 0; background: rgba(20,20,43,0.6); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; z-index: 100; animation: fadeIn 0.25s ease; }
+.sign-modal { position: relative; background: white; padding: 45px 40px; border-radius: 26px; text-align: center; width: 320px; box-shadow: 0 30px 70px rgba(0,0,0,0.3); animation: popIn 0.3s cubic-bezier(.2,.9,.3,1.2); }
+.sign-modal h1 { font-size: 60px; margin: 10px 0; background: linear-gradient(90deg,#c97b63,#f2b8a2); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.sign-modal img { width: 140px; height: 140px; object-fit: contain; margin: 10px auto; padding: 12px; background: #faf3ea; border-radius: 14px; }
+.close-sign { position: absolute; top: 14px; right: 16px; border: none; background: #f3e6da; width: 32px; height: 32px; border-radius: 50%; font-size: 18px; cursor: pointer; color: #555; transition: 0.2s; }
+.close-sign:hover { background: #e6d3c2; transform: rotate(90deg); }
+.listen-sign { margin-top: 15px; padding: 12px 26px; border: none; border-radius: 10px; background: linear-gradient(120deg,#c97b63,#a85c47); color: white; font-weight: 600; cursor: pointer; transition: 0.25s; }
+.listen-sign:hover { transform: translateY(-3px); box-shadow: 0 10px 25px rgba(124,92,255,0.35); }
+
+button:disabled, input:read-only { opacity: 1; cursor: default; }

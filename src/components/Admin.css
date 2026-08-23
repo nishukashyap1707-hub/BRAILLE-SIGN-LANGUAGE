@@ -1,0 +1,6 @@
+.admin-locked { min-height: calc(100vh - 72px); display: flex; align-items: center; justify-content: center; background: linear-gradient(160deg,#3e2c2b,#6b3f3f); padding: 40px 20px; }
+.lock-box { width: 440px; max-width: 100%; background: white; padding: 50px 40px; border-radius: 26px; text-align: center; box-shadow: 0 25px 60px rgba(0,0,0,0.3); }
+.lock-icon { font-size: 50px; margin-bottom: 10px; }
+.lock-box h1 { margin: 10px 0; color: #4a3229; font-size: 28px; }
+.lock-sub { color: #8a7566; line-height: 1.6; margin-bottom: 28px; }
+.lock-button { display: inline-block; padding: 14px 28px; border-radius: 12px; background: linear-gradient(120deg,#c97b63,#a85c47); color: white; font-weight: 700; text-decoration: none; }
