@@ -9,7 +9,7 @@
 .hero-blob { position: absolute; border-radius: 50%; filter: blur(70px); opacity: 0.55; z-index: 0; }
 .blob-a { width: 420px; height: 420px; background: #c97b63; top: -120px; left: -100px; }
 .blob-b { width: 360px; height: 360px; background: #f2b8a2; bottom: -140px; right: -80px; }
-
+}
 
 .hero-content { max-width: 640px; position: relative; z-index: 2; opacity: 0; transform: translateY(24px); }
 
@@ -61,7 +61,8 @@
 .floating-card small { margin-top: 3px; color: #85859a; font-size: 11px; }
 .card-one { top: 40px; left: -25px; }
 .card-two { right: -25px; bottom: 40px; }
-
+.float-anim { }
+.float-anim-slow { }
 
  
 
