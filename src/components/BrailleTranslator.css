@@ -1,0 +1,14 @@
+.braille-page { min-height: calc(100vh - 72px); padding: 70px 20px; background: linear-gradient(160deg,#fbf1e6,#f3e6da); }
+.braille-box { max-width: 760px; margin: auto; text-align: center; animation: fadeUp 0.6s ease; }
+.braille-box h1 { font-size: 44px; margin: 15px 0; color: #4a3229; }
+.braille-description { color: #666; font-size: 18px; margin-bottom: 35px; }
+.braille-input { width: 82%; padding: 16px; border: 2px solid #e6d3c2; border-radius: 12px; font-size: 17px; outline: none; transition: 0.25s; }
+.braille-input:focus { border-color: #c97b63; box-shadow: 0 0 0 4px rgba(124,92,255,0.12); }
+.braille-buttons { margin-top: 22px; display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
+.braille-buttons button, .copy-button { padding: 13px 24px; border: none; border-radius: 10px; background: linear-gradient(120deg,#c97b63,#a85c47); color: white; font-size: 15px; font-weight: 600; cursor: pointer; transition: 0.25s; }
+.braille-buttons button:hover, .copy-button:hover { transform: translateY(-3px); box-shadow: 0 10px 25px rgba(124,92,255,0.35); }
+.result-section { margin-top: 45px; }
+.braille-result { min-height: 100px; padding: 25px; margin-top: 15px; background: white; border-radius: 18px; font-size: 34px; display: flex; align-items: center; justify-content: center; word-break: break-word; box-shadow: 0 10px 30px rgba(90,70,200,0.1); animation: fadeUp 0.4s ease; }
+.copy-button { margin-top: 15px; }
+
+button:disabled, input:read-only { opacity: 1; cursor: default; }
