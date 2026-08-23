@@ -1,5 +1,5 @@
-// import signData from "../data/signData";
-import signData from "../data/brailleData";
+import signData from "../data/signData";
+// import signData from "../data/brailleData";
 import "./Quiz.css";
 
 function Quiz() {
