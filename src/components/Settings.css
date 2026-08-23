@@ -1,0 +1,13 @@
+.settings-page { min-height: calc(100vh - 72px); padding: 80px 20px; display: flex; justify-content: center; background: linear-gradient(160deg,#fbf1e6,#f3e6da); }
+.settings-box { width: 520px; max-width: 100%; background: white; padding: 40px; border-radius: 26px; box-shadow: 0 15px 45px rgba(90,60,40,0.12); }
+.settings-box h1 { margin: 8px 0 30px; color: #4a3229; }
+.settings-section { margin-bottom: 30px; }
+.settings-section h3 { color: #4a3229; margin-bottom: 14px; }
+.settings-section label { display: block; font-size: 13px; font-weight: 700; color: #8a7566; margin: 12px 0 6px; }
+.settings-section input { width: 100%; padding: 12px 14px; border: 2px solid #e6d3c2; border-radius: 10px; font-size: 14px; color: #333; }
+.settings-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #f3e6da; font-size: 15px; color: #4a3229; }
+.toggle { width: 42px; height: 24px; border-radius: 20px; background: #e6d3c2; position: relative; }
+.toggle::after { content: ""; position: absolute; width: 18px; height: 18px; background: white; border-radius: 50%; top: 3px; left: 3px; }
+.toggle.on { background: #c97b63; }
+.toggle.on::after { left: 21px; }
+.save-button { width: 100%; margin-top: 10px; padding: 14px; border: none; border-radius: 10px; background: linear-gradient(120deg,#c97b63,#a85c47); color: white; font-size: 16px; font-weight: 700; }
